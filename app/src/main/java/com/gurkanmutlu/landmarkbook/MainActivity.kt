@@ -22,17 +22,16 @@ class MainActivity : AppCompatActivity() {
 
         landmarkList = ArrayList<Landmark>() // Initialize the ArrayList
 
-        val sofia = Landmark("Bulgaria","Bulgaria", R.drawable.sofia)
-        val london = Landmark("London","İngiltere" ,R.drawable.london)
-        val collesseum = Landmark("Rome","İtalya", R.drawable.italya)
-        val eiffel = Landmark("Paris", "France",R.drawable.paris)
+        val sofia = Landmark("Sofia","Bulgaria", R.drawable.sofia)
+        val london = Landmark("London Bridge","İngiltere" ,R.drawable.london)
+        val italya = Landmark("Collesseum","İtalya", R.drawable.italya)
+        val paris = Landmark("Eiffel", "France",R.drawable.paris)
 
 
         landmarkList.add(sofia)
         landmarkList.add(london)
-        landmarkList.add(collesseum)
-        landmarkList.add(eiffel)
-
+        landmarkList.add(italya)
+        landmarkList.add(paris)
 
 
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
