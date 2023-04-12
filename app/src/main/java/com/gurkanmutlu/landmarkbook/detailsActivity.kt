@@ -15,5 +15,7 @@ class detailsActivity : AppCompatActivity() {
         setContentView(view)
 
 
+
+
     }
 }
